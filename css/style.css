@@ -536,19 +536,6 @@ body {
   .accidents__search-field {
     width: 100%;
   }
-  .accidents__search-label {
-    text-align: center;
-  }
-  .accidents__archive-text {
-    text-align: center;
-  }
-  .accidents__archive-year {
-    text-align: center;
-  }
-  .accidents__archive-list-container {
-    display: flex;
-    justify-content: center;
-  }
   .accidents-header {
     display: flex;
     justify-content: center;
