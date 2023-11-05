@@ -7,372 +7,369 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header__container">
-            <div class="header__body">
-                <a href="index.html">
-                    <div class="header__logo">
-                        <div class="header__logo-image">
-                            <img src="img/logo.png" alt="logo">
-                        </div>
-                        <div class="header__logo-items">
-                            <div class="header__logo-title">
-                                ACCIDENT.BIZ
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__body">
+                    <a href="index.html">
+                        <div class="header__logo">
+                            <div class="header__logo-image">
+                                <img src="img/logo.png" alt="logo">
                             </div>
-                            <div class="header__logo-text">
-                                All accidents in one source
+                            <div class="header__logo-items">
+                                <div class="header__logo-title">
+                                    ACCIDENT.BIZ
+                                </div>
+                                <div class="header__logo-text">
+                                    All accidents in one source
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="header__menu">
+                        <ul class="header__menu-list">
+                            <li class="header__menu-item">
+                                <a href="/accidents">Accidents</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="/authors">Authors</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="/about-the-project">About the project</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="/become-an-author">Become an author</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="/contacts">Contacts</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="header__search-form">
+                        <input class="header__search-input" type="text" placeholder="Use quick search">
+                        <button class="header__search-btn" type="submit"><img src="img/icons/search.svg" alt="search"></button>
+                    </form>
+                    <div class="header__signin">
+                        <button class="header__signin-btn">
+                            <img src="img/icons/sign-in.svg" alt="signin">
+                            <span>Sign In</span>
+                        </button>
+                    </div>
+                    <div class="header__burger">
+                        <img src="img/icons/burger.svg" alt="burger-icon">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="burger-menu">
+            <div class="burger-menu__menu-body">
+                <ul class="burger-menu__menu-list">
+                    <li class="burger-menu__menu-item">
+                        <a href="/accidents">Accidents</a>
+                    </li>
+                    <li class="burger-menu__menu-item">
+                        <a href="/authors">Authors</a>
+                    </li>
+                    <li class="burger-menu__menu-item">
+                        <a href="/about-the-project">About the project</a>
+                    </li>
+                    <li class="burger-menu__menu-item">
+                        <a href="/become-an-author">Become an author</a>
+                    </li>
+                    <li class="burger-menu__menu-item">
+                        <a href="/contacts">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="burger-menu__search-form">
+                <input class="burger-menu__search-input" type="text" placeholder="Use quick search">
+                <button class="burger-menu__search-btn" type="submit"><img src="img/icons/search.svg" alt="search"></button>
+            </form>
+            <div class="burger-menu__signin">
+                <button class="header__signin-btn">
+                    <img src="img/icons/sign-in.svg" alt="signin">
+                    <span>Sign In</span>
+                </button>
+            </div>
+        </div>
+        <main class="main">
+            <section class="accidents-header main__accidents-header">
+                <div class="container">
+                    <div class="accidents-header__header">
+                        <div class="accidents-header__header-title">
+                            Accidents
+                        </div>
+                        <button class="accidents-header__header-button">Show accidents on the map</button>
+                    </div>
+                </div>
+            </section>
+            <section class="accidents main__accidents">
+                <div class="container">
+                    <div class="accidents__body">
+                        <nav class="accidents__archive">
+                            <form class="accidents__archive-search">
+                                <div class="accidents__search-label">Fast search</div>
+                                <div class="accidents__search-field">
+                                    <input class="accidents__search-input" placeholder="Start typing your search term">
+                                    <button class="accidents__search-btn">
+                                        <img src="img/icons/accidents-search.svg" alt="search">
+                                    </button>
+                                </div>
+                            </form>
+                            <div class="accidents__archive-text">
+                                Archive
+                            </div>
+                            <div class="accidents__archive-year">
+                                2023
+                            </div>
+                            <div class="accidents__archive-list-container">
+                                <ul class="accidents__archive-list">
+                                    <li class="accidents__archive-month"><a href="archive/2023/january">January</a></li>
+                                    <li class="accidents__archive-month"><a href="archive/2023/february">February</a></li>
+                                    <li class="accidents__archive-month"><a href="archive/2023/march">March</a></li>
+                                    <li class="accidents__archive-month"><a href="archive/2023/april">April</a></li>
+                                    <li class="accidents__archive-month"><a href="archive/2023/may">May</a></li>
+                                    <li class="accidents__archive-month"><a href="archive/2023/june">June</a></li>
+                                    <li class="accidents__archive-month"><a href="archive/2023/july">July</a></li>
+                                    <li class="accidents__archive-month"><a href="archive/2023/august">August</a></li>
+                                    <li class="accidents__archive-month"><a href="archive/2023/september">September</a></li>
+                                    <li class="accidents__archive-month"><a href="archive/2023/october">October</a></li>
+                                    <li class="accidents__archive-month"><a href="archive/2023/november">November</a></li>
+                                    <li class="accidents__archive-month"><a href="archive/2023/december">December</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <div class="content accidents__content">
+                            <div class="content__header">
+                                <a class="content__sort-btn content__sort-btn--active" href="#">
+                                    <img src="img/icons/zap.svg" alt="icon">
+                                    <span>Only by accident.biz</span>
+                                </a>
+                                <a class="content__sort-btn" href="#">
+                                    <svg class="content__sort-svg" viewBox="0 0 20 18" fill="none">
+                                        <path d="M18.3334 16.5V14.8333C18.3334 13.2801 17.2711 11.9751 15.8334 11.605M12.9167 1.7423C14.1383 2.23679 15.0001 3.43443 15.0001 4.83333C15.0001 6.23224 14.1383 7.42988 12.9167 7.92437M14.1667 16.5C14.1667 14.9469 14.1667 14.1703 13.913 13.5577C13.5747 12.741 12.9258 12.092 12.109 11.7537C11.4965 11.5 10.7199 11.5 9.16675 11.5H6.66675C5.11361 11.5 4.33704 11.5 3.72447 11.7537C2.90771 12.092 2.2588 12.741 1.92048 13.5577C1.66675 14.1703 1.66675 14.9469 1.66675 16.5M11.2501 4.83333C11.2501 6.67428 9.7577 8.16667 7.91675 8.16667C6.0758 8.16667 4.58341 6.67428 4.58341 4.83333C4.58341 2.99238 6.0758 1.5 7.91675 1.5C9.7577 1.5 11.2501 2.99238 11.2501 4.83333Z" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <span>Only by authors</span>
+                                </a>
+                            </div>
+                            <div class="content__body">
+                                <div class="article content__article">
+                                    <div class="article__photo">
+                                        <img src="img/photo-placeholder.png" alt="photo">
+                                    </div>
+                                    <div class="article__body">
+                                        <div class="article__date">
+                                            <div class="article__calendar">
+                                                <img src="img/icons/calendar.svg" alt="calendar">
+                                            </div>
+                                            <div class="article__datestamp">
+                                                Jun 23, 2023
+                                            </div>
+                                        </div>
+                                        <div class="article__title">
+                                            <a href="articles/4">Giant car accident in the USA</a>
+                                        </div>
+                                        <div class="article__text">
+                                            The accident occurred on January 10, 2023 on the highway between New York and Chicago
+                                        </div>
+                                        <div class="article__more">
+                                            <div class="article__discuss">
+                                                <div class="article__discuss-icon">
+                                                    <img src="img/icons/discuss.svg" alt="discuss">
+                                                </div>
+                                                <div class="article__discuss-link">
+                                                    <a href="articles/4">Discuss</a>
+                                                </div>
+                                                <div class="article__discuss-dot">
+                                                    ·
+                                                </div>
+                                                <div class="article__discuss-views">
+                                                    98 reads
+                                                </div>
+                                            </div>
+                                            <div class="article__read-more">
+                                                <a class="article__read-more-btn" href="articles/4">Read more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="article content__article">
+                                    <div class="article__photo">
+                                        <img src="img/photo-placeholder.png" alt="photo">
+                                    </div>
+                                    <div class="article__body">
+                                        <div class="article__date">
+                                            <div class="article__calendar">
+                                                <img src="img/icons/calendar.svg" alt="calendar">
+                                            </div>
+                                            <div class="article__datestamp">
+                                                Jun 23, 2023
+                                            </div>
+                                        </div>
+                                        <div class="article__title">
+                                            <a href="articles/3">Giant car accident in the USA</a>
+                                        </div>
+                                        <div class="article__text">
+                                            The accident occurred on January 10, 2023 on the highway between New York and Chicago
+                                        </div>
+                                        <div class="article__more">
+                                            <div class="article__discuss">
+                                                <div class="article__discuss-icon">
+                                                    <img src="img/icons/discuss.svg" alt="discuss">
+                                                </div>
+                                                <div class="article__discuss-link">
+                                                    <a href="articles/3">Discuss</a>
+                                                </div>
+                                                <div class="article__discuss-dot">
+                                                    ·
+                                                </div>
+                                                <div class="article__discuss-views">
+                                                    98 reads
+                                                </div>
+                                            </div>
+                                            <div class="article__read-more">
+                                                <a class="article__read-more-btn" href="articles/3">Read more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="article content__article">
+                                    <div class="article__photo">
+                                        <img src="img/photo-placeholder.png" alt="photo">
+                                    </div>
+                                    <div class="article__body">
+                                        <div class="article__date">
+                                            <div class="article__calendar">
+                                                <img src="img/icons/calendar.svg" alt="calendar">
+                                            </div>
+                                            <div class="article__datestamp">
+                                                Jun 23, 2023
+                                            </div>
+                                        </div>
+                                        <div class="article__title">
+                                            <a href="articles/2">Giant car accident in the USA</a>
+                                        </div>
+                                        <div class="article__text">
+                                            The accident occurred on January 10, 2023 on the highway between New York and Chicago
+                                        </div>
+                                        <div class="article__more">
+                                            <div class="article__discuss">
+                                                <div class="article__discuss-icon">
+                                                    <img src="img/icons/discuss.svg" alt="discuss">
+                                                </div>
+                                                <div class="article__discuss-link">
+                                                    <a href="articles/2">Discuss</a>
+                                                </div>
+                                                <div class="article__discuss-dot">
+                                                    ·
+                                                </div>
+                                                <div class="article__discuss-views">
+                                                    98 reads
+                                                </div>
+                                            </div>
+                                            <div class="article__read-more">
+                                                <a class="article__read-more-btn" href="articles/2">Read more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="article content__article">
+                                    <div class="article__photo">
+                                        <img src="img/photo-placeholder.png" alt="photo">
+                                    </div>
+                                    <div class="article__body">
+                                        <div class="article__date">
+                                            <div class="article__calendar">
+                                                <img src="img/icons/calendar.svg" alt="calendar">
+                                            </div>
+                                            <div class="article__datestamp">
+                                                Jun 23, 2023
+                                            </div>
+                                        </div>
+                                        <div class="article__title">
+                                            <a href="articles/1">Giant car accident in the USA</a>
+                                        </div>
+                                        <div class="article__text">
+                                            The accident occurred on January 10, 2023 on the highway between New York and Chicago
+                                        </div>
+                                        <div class="article__more">
+                                            <div class="article__discuss">
+                                                <div class="article__discuss-icon">
+                                                    <img src="img/icons/discuss.svg" alt="discuss">
+                                                </div>
+                                                <div class="article__discuss-link">
+                                                    <a href="articles/1">Discuss</a>
+                                                </div>
+                                                <div class="article__discuss-dot">
+                                                    ·
+                                                </div>
+                                                <div class="article__discuss-views">
+                                                    98 reads
+                                                </div>
+                                            </div>
+                                            <div class="article__read-more">
+                                                <a class="article__read-more-btn" href="articles/1">Read more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </a>
-                <div class="header__menu">
-                    <ul class="header__menu-list">
-                        <li class="header__menu-item">
-                            <a href="/accidents">Accidents</a>
-                        </li>
-                        <li class="header__menu-item">
-                            <a href="/authors">Authors</a>
-                        </li>
-                        <li class="header__menu-item">
-                            <a href="/about-the-project">About the project</a>
-                        </li>
-                        <li class="header__menu-item">
-                            <a href="/become-an-author">Become an author</a>
-                        </li>
-                        <li class="header__menu-item">
-                            <a href="/contacts">Contacts</a>
-                        </li>
-                    </ul>
                 </div>
-                <form class="header__search-form">
-                    <input class="header__search-input" type="text" placeholder="Use quick search">
-                    <button class="header__search-btn" type="submit"><img src="img/icons/search.svg" alt="search"></button>
-                </form>
-                <div class="header__signin">
-                    <button class="header__signin-btn">
-                        <img src="img/icons/sign-in.svg" alt="signin">
-                        <span>Sign In</span>
-                    </button>
-                </div>
-                <div class="header__burger">
-                    <img src="img/icons/burger.svg" alt="burger-icon">
-                </div>
-            </div>
-        </div>
-    </header>
-    <div class="burger-menu">
-        <div class="burger-menu__menu-body">
-            <ul class="burger-menu__menu-list">
-                <li class="burger-menu__menu-item">
-                    <a href="/accidents">Accidents</a>
-                </li>
-                <li class="burger-menu__menu-item">
-                    <a href="/authors">Authors</a>
-                </li>
-                <li class="burger-menu__menu-item">
-                    <a href="/about-the-project">About the project</a>
-                </li>
-                <li class="burger-menu__menu-item">
-                    <a href="/become-an-author">Become an author</a>
-                </li>
-                <li class="burger-menu__menu-item">
-                    <a href="/contacts">Contacts</a>
-                </li>
-            </ul>
-        </div>
-        <form class="burger-menu__search-form">
-            <input class="burger-menu__search-input" type="text" placeholder="Use quick search">
-            <button class="burger-menu__search-btn" type="submit"><img src="img/icons/search.svg" alt="search"></button>
-        </form>
-        <div class="burger-menu__signin">
-            <button class="header__signin-btn">
-                <img src="img/icons/sign-in.svg" alt="signin">
-                <span>Sign In</span>
-            </button>
-        </div>
-    </div>
-    <main class="main">
-        <section class="accidents-header main__accidents-header">
+            </section>
+        </main>
+        <footer class="footer">
             <div class="container">
-                <div class="accidents-header__header">
-                    <div class="accidents-header__header-title">
-                        Accidents
-                    </div>
-                    <button class="accidents-header__header-button">Show accidents on the map</button>
-                </div>
-            </div>
-        </section>
-        <section class="accidents main__accidents">
-            <div class="container">
-                <div class="accidents__body">
-                    <nav class="accidents__archive">
-                        <form class="accidents__archive-search">
-                            <div class="accidents__search-label">Fast search</div>
-                            <div class="accidents__search-field">
-                                <input class="accidents__search-input" placeholder="Start typing your search term">
-                                <button class="accidents__search-btn">
-                                    <img src="img/icons/accidents-search.svg" alt="search">
-                                </button>
+                <div class="footer__nav">
+                    <a href="index.html">
+                        <div class="footer__logo">
+                            <div class="footer__image">
+                                <img src="img/icons/footer-logo.svg" alt="footer logo">
                             </div>
-                        </form>
-                        <div class="accidents__archive-text">
-                            Archive
+                            <div class="footer__logo-items">
+                                <div class="footer__logo-title">
+                                    ACCIDENT.BIZ
+                                </div>
+                                <div class="footer__logo-text">
+                                    Accidents in New York now
+                                </div>
+                            </div>
                         </div>
-                        <div class="accidents__archive-year">
-                            2023
-                        </div>
-                        <div class="accidents__archive-list-container">
-                            <ul class="accidents__archive-list">
-                                <li class="accidents__archive-month"><a href="archive/2023/january">January</a></li>
-                                <li class="accidents__archive-month"><a href="archive/2023/february">February</a></li>
-                                <li class="accidents__archive-month"><a href="archive/2023/march">March</a></li>
-                                <li class="accidents__archive-month"><a href="archive/2023/april">April</a></li>
-                                <li class="accidents__archive-month"><a href="archive/2023/may">May</a></li>
-                                <li class="accidents__archive-month"><a href="archive/2023/june">June</a></li>
-                                <li class="accidents__archive-month"><a href="archive/2023/july">July</a></li>
-                                <li class="accidents__archive-month"><a href="archive/2023/august">August</a></li>
-                                <li class="accidents__archive-month"><a href="archive/2023/september">September</a></li>
-                                <li class="accidents__archive-month"><a href="archive/2023/october">October</a></li>
-                                <li class="accidents__archive-month"><a href="archive/2023/november">November</a></li>
-                                <li class="accidents__archive-month"><a href="archive/2023/december">December</a></li>
-                            </ul>
-                        </div>
+                    </a>
+                    <nav class="footer__menu">
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item"><a href="/">Home</a></li>
+                            <li class="footer__menu-item"><a href="/">Incidents</a></li>
+                            <li class="footer__menu-item"><a href="/">Authors</a></li>
+                            <li class="footer__menu-item"><a href="/">About the project</a></li>
+                            <li class="footer__menu-item"><a href="/">Become an author</a></li>
+                            <li class="footer__menu-item"><a href="/">Contacts</a></li>
+                        </ul>
                     </nav>
-                    <div class="content accidents__content">
-                        <div class="content__header">
-                            <a class="content__sort-btn content__sort-btn--active" href="#">
-                                <img src="img/icons/zap.svg" alt="icon">
-                                <span>Only by accident.biz</span>
-                            </a>
-                            <a class="content__sort-btn" href="#">
-                                <svg class="content__sort-svg" viewBox="0 0 20 18" fill="none">
-                                    <path d="M18.3334 16.5V14.8333C18.3334 13.2801 17.2711 11.9751 15.8334 11.605M12.9167 1.7423C14.1383 2.23679 15.0001 3.43443 15.0001 4.83333C15.0001 6.23224 14.1383 7.42988 12.9167 7.92437M14.1667 16.5C14.1667 14.9469 14.1667 14.1703 13.913 13.5577C13.5747 12.741 12.9258 12.092 12.109 11.7537C11.4965 11.5 10.7199 11.5 9.16675 11.5H6.66675C5.11361 11.5 4.33704 11.5 3.72447 11.7537C2.90771 12.092 2.2588 12.741 1.92048 13.5577C1.66675 14.1703 1.66675 14.9469 1.66675 16.5M11.2501 4.83333C11.2501 6.67428 9.7577 8.16667 7.91675 8.16667C6.0758 8.16667 4.58341 6.67428 4.58341 4.83333C4.58341 2.99238 6.0758 1.5 7.91675 1.5C9.7577 1.5 11.2501 2.99238 11.2501 4.83333Z" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
-                                </svg>
-                                <span>Only by authors</span>
-                            </a>
-                        </div>
-                        <div class="content__body">
-                            <div class="article content__article">
-                                <div class="article__photo">
-                                    <img src="img/photo-placeholder.png" alt="photo">
-                                </div>
-                                <div class="article__body">
-                                    <div class="article__date">
-                                        <div class="article__calendar">
-                                            <img src="img/icons/calendar.svg" alt="calendar">
-                                        </div>
-                                        <div class="article__datestamp">
-                                            Jun 23, 2023
-                                        </div>
-                                    </div>
-                                    <div class="article__title">
-                                        <a href="articles/4">Giant car accident in the USA</a>
-                                    </div>
-                                    <div class="article__text">
-                                        The accident occurred on January 10, 2023 on the highway between New York and Chicago
-                                    </div>
-                                    <div class="article__more">
-                                        <div class="article__discuss">
-                                            <div class="article__discuss-icon">
-                                                <img src="img/icons/discuss.svg" alt="discuss">
-                                            </div>
-                                            <div class="article__discuss-link">
-                                                <a href="articles/4">Discuss</a>
-                                            </div>
-                                            <div class="article__discuss-dot">
-                                                ·
-                                            </div>
-                                            <div class="article__discuss-views">
-                                                98 reads
-                                            </div>
-                                        </div>
-                                        <div class="article__read-more">
-                                            <a class="article__read-more-btn" href="articles/4">Read more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="article content__article">
-                                <div class="article__photo">
-                                    <img src="img/photo-placeholder.png" alt="photo">
-                                </div>
-                                <div class="article__body">
-                                    <div class="article__date">
-                                        <div class="article__calendar">
-                                            <img src="img/icons/calendar.svg" alt="calendar">
-                                        </div>
-                                        <div class="article__datestamp">
-                                            Jun 23, 2023
-                                        </div>
-                                    </div>
-                                    <div class="article__title">
-                                        <a href="articles/3">Giant car accident in the USA</a>
-                                    </div>
-                                    <div class="article__text">
-                                        The accident occurred on January 10, 2023 on the highway between New York and Chicago
-                                    </div>
-                                    <div class="article__more">
-                                        <div class="article__discuss">
-                                            <div class="article__discuss-icon">
-                                                <img src="img/icons/discuss.svg" alt="discuss">
-                                            </div>
-                                            <div class="article__discuss-link">
-                                                <a href="articles/3">Discuss</a>
-                                            </div>
-                                            <div class="article__discuss-dot">
-                                                ·
-                                            </div>
-                                            <div class="article__discuss-views">
-                                                98 reads
-                                            </div>
-                                        </div>
-                                        <div class="article__read-more">
-                                            <a class="article__read-more-btn" href="articles/3">Read more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="article content__article">
-                                <div class="article__photo">
-                                    <img src="img/photo-placeholder.png" alt="photo">
-                                </div>
-                                <div class="article__body">
-                                    <div class="article__date">
-                                        <div class="article__calendar">
-                                            <img src="img/icons/calendar.svg" alt="calendar">
-                                        </div>
-                                        <div class="article__datestamp">
-                                            Jun 23, 2023
-                                        </div>
-                                    </div>
-                                    <div class="article__title">
-                                        <a href="articles/2">Giant car accident in the USA</a>
-                                    </div>
-                                    <div class="article__text">
-                                        The accident occurred on January 10, 2023 on the highway between New York and Chicago
-                                    </div>
-                                    <div class="article__more">
-                                        <div class="article__discuss">
-                                            <div class="article__discuss-icon">
-                                                <img src="img/icons/discuss.svg" alt="discuss">
-                                            </div>
-                                            <div class="article__discuss-link">
-                                                <a href="articles/2">Discuss</a>
-                                            </div>
-                                            <div class="article__discuss-dot">
-                                                ·
-                                            </div>
-                                            <div class="article__discuss-views">
-                                                98 reads
-                                            </div>
-                                        </div>
-                                        <div class="article__read-more">
-                                            <a class="article__read-more-btn" href="articles/2">Read more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="article content__article">
-                                <div class="article__photo">
-                                    <img src="img/photo-placeholder.png" alt="photo">
-                                </div>
-                                <div class="article__body">
-                                    <div class="article__date">
-                                        <div class="article__calendar">
-                                            <img src="img/icons/calendar.svg" alt="calendar">
-                                        </div>
-                                        <div class="article__datestamp">
-                                            Jun 23, 2023
-                                        </div>
-                                    </div>
-                                    <div class="article__title">
-                                        <a href="articles/1">Giant car accident in the USA</a>
-                                    </div>
-                                    <div class="article__text">
-                                        The accident occurred on January 10, 2023 on the highway between New York and Chicago
-                                    </div>
-                                    <div class="article__more">
-                                        <div class="article__discuss">
-                                            <div class="article__discuss-icon">
-                                                <img src="img/icons/discuss.svg" alt="discuss">
-                                            </div>
-                                            <div class="article__discuss-link">
-                                                <a href="articles/1">Discuss</a>
-                                            </div>
-                                            <div class="article__discuss-dot">
-                                                ·
-                                            </div>
-                                            <div class="article__discuss-views">
-                                                98 reads
-                                            </div>
-                                        </div>
-                                        <div class="article__read-more">
-                                            <a class="article__read-more-btn" href="articles/1">Read more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+                <div class="footer__follow">
+                    <div class="footer__follow-text">
+                        Follow in
+                    </div>
+                    <div class="footer__follow-icon">
+                        <a href="https://twitter.com/"><img src="img/icons/twitter.svg"></a>
+                    </div>
+                    <div class="footer__follow-icon">
+                        <a href="https://www.instagram.com/"><img src="img/icons/instagram.svg"></a>
+                    </div>
+                    <div class="footer__follow-icon">
+                        <a href="https://www.facebook.com/"><img src="img/icons/facebook.svg"></a>
                     </div>
                 </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__nav">
-                <a href="index.html">
-                    <div class="footer__logo">
-                        <div class="footer__image">
-                            <img src="img/icons/footer-logo.svg" alt="footer logo">
-                        </div>
-                        <div class="footer__logo-items">
-                            <div class="footer__logo-title">
-                                ACCIDENT.BIZ
-                            </div>
-                            <div class="footer__logo-text">
-                                Accidents in New York now
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <nav class="footer__menu">
-                    <ul class="footer__menu-list">
-                        <li class="footer__menu-item"><a href="/">Home</a></li>
-                        <li class="footer__menu-item"><a href="/">Incidents</a></li>
-                        <li class="footer__menu-item"><a href="/">Authors</a></li>
-                        <li class="footer__menu-item"><a href="/">About the project</a></li>
-                        <li class="footer__menu-item"><a href="/">Become an author</a></li>
-                        <li class="footer__menu-item"><a href="/">Contacts</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="footer__follow">
-                <div class="footer__follow-text">
-                    Follow in
-                </div>
-                <div class="footer__follow-icon">
-                    <a href="https://twitter.com/"><img src="img/icons/twitter.svg"></a>
-                </div>
-                <div class="footer__follow-icon">
-                    <a href="https://www.instagram.com/"><img src="img/icons/instagram.svg"></a>
-                </div>
-                <div class="footer__follow-icon">
-                    <a href="https://www.facebook.com/"><img src="img/icons/facebook.svg"></a>
+                <div class="footer__copyright">
+                    Copyright 2023
                 </div>
             </div>
-            <div class="footer__copyright">
-                Copyright 2023
-            </div>
-        </div>
-    </footer>
-    <div class="left-ellipse">
+        </footer>
         <img src="img/icons/left-ellipse.svg" alt="blur">
-    </div>
-    <div class="right-ellipse">
         <img src="img/icons/right-ellipse.svg" alt="blur">
     </div>
-
     <script src="js/script.js"></script>
 </body>
 </html>
