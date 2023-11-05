@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accident</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__body">
+                    <a href="index.html">
+                        <div class="header__logo">
+                            <div class="header__logo-image">
+                                <img src="img/logo.png" alt="logo">
+                            </div>
+                            <div class="header__logo-items">
+                                <div class="header__logo-title">
+                                    ACCIDENT.BIZ
+                                </div>
+                                <div class="header__logo-text">
+                                    All accidents in one source
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="header__menu">
+                        <ul class="header__menu-list">
+                            <li class="header__menu-item">
+                                <a href="/accidents">Accidents</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="/authors">Authors</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="/about-the-project">About the project</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="/become-an-author">Become an author</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a href="/contacts">Contacts</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="header__search-form">
+                        <input class="header__search-input" type="text" placeholder="Use quick search">
+                        <button class="header__search-btn" type="submit"><img src="img/icons/search.svg" alt="search"></button>
+                    </form>
+                    <div class="header__signin">
+                        <button class="header__signin-btn">
+                            <img src="img/icons/sign-in.svg" alt="signin">
+                            <span>Sign In</span>
+                        </button>
+                    </div>
+                    <div class="header__burger">
+                        <img src="img/icons/burger.svg" alt="burger-icon">
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="burger-menu">
+            <div class="burger-menu__menu-body">
+                <ul class="burger-menu__menu-list">
+                    <li class="burger-menu__menu-item">
+                        <a href="/accidents">Accidents</a>
+                    </li>
+                    <li class="burger-menu__menu-item">
+                        <a href="/authors">Authors</a>
+                    </li>
+                    <li class="burger-menu__menu-item">
+                        <a href="/about-the-project">About the project</a>
+                    </li>
+                    <li class="burger-menu__menu-item">
+                        <a href="/become-an-author">Become an author</a>
+                    </li>
+                    <li class="burger-menu__menu-item">
+                        <a href="/contacts">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="burger-menu__search-form">
+                <input class="burger-menu__search-input" type="text" placeholder="Use quick search">
+                <button class="burger-menu__search-btn" type="submit"><img src="img/icons/search.svg" alt="search"></button>
+            </form>
+            <div class="burger-menu__signin">
+                <button class="header__signin-btn">
+                    <img src="img/icons/sign-in.svg" alt="signin">
+                    <span>Sign In</span>
+                </button>
+            </div>
+        </div>
+        <main class="main">
+            <section class="accidents-header main__accidents-header">
+                <div class="container">
+                    <div class="accidents-header__header">
+                        <div class="accidents-header__header-title">
+                            Add an accident
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="content accidents__content">
+                <div class="container">
+                    <div class="content__body">
+                        <div class="article content__article">
+                            <form class="article__create-form" action="" method="post">
+                                <label class="article__file-label" for="cover">
+                                    <img src="img/icons/cover.svg" alt="cover">
+                                    Add Cover<span style="color: #e41b24;">*</span>
+                                </label>
+                                <input class="article__file-input" id="cover" type="file">
+                                <div class="article__form-label">Enter the title of the accident<span style="color: #e41b24;">*</span></div>
+                                    <input class="article__input-field" type="text" placeholder="Title of the accident">
+                                <div class="article__address-label">
+                                    <span class="article__form-text">Select address</span>
+                                    <button class="accidents-header__header-button">
+                                        <img src="img/icons/map-pin.svg" alt="map-pin">
+                                        <span>Show on the map</span>
+                                    </button>
+                                </div>
+                                <input class="article__input-field" type="text" placeholder="Not required">
+                                <div class="article__form-label">Accidents text<span style="color: #e41b24;">*</span></div>
+                                <textarea class="article__input-field" rows="11"></textarea>
+                                <div class="article__form-label">
+                                    <button class="article__publish-btn" type="submit">Publish</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__nav">
+                    <a href="index.html">
+                        <div class="footer__logo">
+                            <div class="footer__image">
+                                <img src="img/icons/footer-logo.svg" alt="footer logo">
+                            </div>
+                            <div class="footer__logo-items">
+                                <div class="footer__logo-title">
+                                    ACCIDENT.BIZ
+                                </div>
+                                <div class="footer__logo-text">
+                                    Accidents in New York now
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <nav class="footer__menu">
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item"><a href="/">Home</a></li>
+                            <li class="footer__menu-item"><a href="/">Incidents</a></li>
+                            <li class="footer__menu-item"><a href="/">Authors</a></li>
+                            <li class="footer__menu-item"><a href="/">About the project</a></li>
+                            <li class="footer__menu-item"><a href="/">Become an author</a></li>
+                            <li class="footer__menu-item"><a href="/">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__follow">
+                    <div class="footer__follow-text">
+                        Follow in
+                    </div>
+                    <div class="footer__follow-icon">
+                        <a href="https://twitter.com/"><img src="img/icons/twitter.svg"></a>
+                    </div>
+                    <div class="footer__follow-icon">
+                        <a href="https://www.instagram.com/"><img src="img/icons/instagram.svg"></a>
+                    </div>
+                    <div class="footer__follow-icon">
+                        <a href="https://www.facebook.com/"><img src="img/icons/facebook.svg"></a>
+                    </div>
+                </div>
+                <div class="footer__copyright">
+                    Copyright 2023
+                </div>
+            </div>
+        </footer>
+            <img class="left-ellipse" src="img/icons/left-ellipse.svg" alt="blur">
+            <img class="right-ellipse" src="img/icons/right-ellipse.svg" alt="blur">
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
